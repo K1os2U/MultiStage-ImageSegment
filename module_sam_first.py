@@ -1,5 +1,5 @@
-from models.sam_first import process_first_stage
-from models.init import dict_init
+from modules.sam_first import process_first_stage
+from modules.init import dict_init
 import os
 import cv2
 import glob

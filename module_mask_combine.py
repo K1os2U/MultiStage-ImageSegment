@@ -1,5 +1,5 @@
-from models.mask_combine import process_combine
-from models.init import dict_init
+from modules.mask_combine import process_combine
+from modules.init import dict_init
 import os
 import cv2
 import glob

@@ -1,8 +1,8 @@
-from models.mask_cut import mask_cut
-from models.yolo_yaml import yaml_generate
-from models.yolo_inference import inference
-from models.init_2 import dict_init
-from models.results import rename_files
+from modules.mask_cut import mask_cut
+from modules.yolo_yaml import yaml_generate
+from modules.yolo_inference import inference
+from modules.init_2 import dict_init
+from modules.results import rename_files
 import os
 import cv2
 import glob

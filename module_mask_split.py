@@ -1,5 +1,5 @@
-from models.mask_split import process_folder
-from models.init_2 import dict_init
+from modules.mask_split import process_folder
+from modules.init_2 import dict_init
 import os
 import cv2
 import glob

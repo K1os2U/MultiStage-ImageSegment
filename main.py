@@ -1,12 +1,12 @@
-from models.sam_first import process_first_stage
-from models.mask_combine import process_combine
-from models.sam_remain import process_others_stage
-from models.init import dict_init
-from models.mask_split import process_folder
-from models.mask_cut import mask_cut
-from models.yolo_yaml import yaml_generate
-from models.yolo_inference import inference
-from models.sam_second import process_second_stage
+from modules.sam_first import process_first_stage
+from modules.mask_combine import process_combine
+from modules.sam_remain import process_others_stage
+from modules.init import dict_init
+from modules.mask_split import process_folder
+from modules.mask_cut import mask_cut
+from modules.yolo_yaml import yaml_generate
+from modules.yolo_inference import inference
+from modules.sam_second import process_second_stage
 from pathlib import Path
 import os
 import glob

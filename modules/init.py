@@ -1,7 +1,7 @@
 def dict_init():
     para_dict = ({
         # Global initialization
-        'input_dir' : "../inputs/sam_remain_class_img_val_19_3_0.01_split",
+        'input_dir' : "./inputs/sam_remain_class_img_val_19_3_0.01_split",
         'output_dir' : "./output/sam_remain_class_mask_val_19_3_test",
         'device' : "npu:0",
 
@@ -60,7 +60,6 @@ def dict_init():
         'sam_remain_min_area_ratio': 0.0004,
         'sam_remain_min_area_ratio_loop': 0.00015,
 
-
         'mask_split_mode': 'ccomp',
         'mask_split_save_fullsize_mask': True,
         'mask_split_chain':'simple',
@@ -70,9 +69,8 @@ def dict_init():
         'mask_split_show_progress': False,
 
         'mask_cut_padding_ratio': 0.1,
-        'mask_cut_output_path': 0.1,
 
-        'yolo_inference_weights_path': "./runs/detect/train/weights/best.pt",
+        'yolo_inference_weights_path': "./yolo/best.pt",
         'yolo_inference_save_json': "./runs/result.json",
         'yolo_inference_save': True,
         'yolo_inference_save_txt': True,
