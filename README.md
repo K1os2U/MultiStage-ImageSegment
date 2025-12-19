@@ -83,8 +83,8 @@ Before running the project, ensure you have the following file structure:
 ```
 'yolo_inference_save_json': "./runs/inference.json",  # Output JSON path
 'yolo_inference_name': "inference",                   # Inference name
-'yolo_conf_threshold': 0.25,                          # Confidence threshold
-'yolo_iou_threshold': 0.45                            # IOU threshold
+'yolo_inference_project': "./runs/detect",            # Inference save path
+'yolo_inference_num_classes' : 19                     # Inference category quantity
 ```
 *For the parameters in init.by, it is necessary to modify them to the data source, model input, and output path. The project includes operations such as mask merging, corrosion, small area filtering, and already identified area filtering. It has multiple adjustable parameters, and both Sam and YOLO related parameters can be modified. These optional parameters can be customized for better task processing*
 ## Main Functional Modules
